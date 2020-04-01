@@ -15,7 +15,16 @@
 
 ## Reliability
 
-- 
+- Are you aware of the ECS/EKS service limits?
+- How do you design your network topology?
+- How do you design your CIDR?
+- Have you performed load test?
+- Have you set containers soft and hard limits?
+- How do you define health checks of the containers?
+- Are your containers stateful or stateless?
+- How do you backup the stateful data?
+- How doies your system withstand component failures?
+- How are you testing your resilience?
 
 ## Performance
 
