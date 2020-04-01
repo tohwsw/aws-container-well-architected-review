@@ -24,7 +24,7 @@
 - How do you design your network topology? EKS: private endpoint, network policies
 - How does your service discover one another? DNS, cloud map, service mesh
 - How do you design your CIDR?
-- How do you define health checks of the containers?
+- How do you define health checks of the containers? EKS: readiness, liveness probes.
 - How does your system withstand component failures?
 - How are you testing your resilience?
 
