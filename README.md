@@ -22,7 +22,7 @@
 
 - Are you aware of the ECS/EKS service limits?
 - How do you design your network topology? EKS: private endpoint, network policies
-- How does your service discover one another? dns, cloud map, service mesh
+- How does your service discover one another? DNS, cloud map, service mesh
 - How do you design your CIDR?
 - How do you define health checks of the containers?
 - How does your system withstand component failures?
