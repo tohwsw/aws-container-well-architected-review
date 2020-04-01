@@ -49,6 +49,7 @@
 - Have you offload non-functional requirements to a sidecar?
 - How are you capturing and analyzing application logs? cloudwatch logs, elastic search
 - How are you capturing and analyzing metrics? prometheus, container-insights
+- Have you considered fargate?
 
 ## Cost Optimization
 
@@ -56,4 +57,4 @@
 - Have you considered data transfer charges?
 - Any reserved instances/savings plan?
 - Is the workload suitable for spot?
-- Have you considered fargate?
+
