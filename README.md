@@ -56,4 +56,4 @@
 - Have you considered data transfer charges?
 - Any reserved instances/savings plan?
 - Is the workload suitable for spot?
-- Have you cosidered fargate?
+- Have you considered fargate?
