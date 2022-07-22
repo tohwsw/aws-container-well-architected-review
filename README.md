@@ -26,7 +26,7 @@
 - How do you design your CIDR?
 - How do you define health checks of the containers? EKS: readiness, liveness probes.
 - How does your system withstand component failures?
-- How are you testing your resilience?
+- How are you testing your resilience? eg. Amazon Fault Simulator 
 
 ## Performance
 
@@ -42,7 +42,7 @@
 
 - How do you promote the container image across various environments?
 - What is the tagging strategy for your images? eg. unique build id 
-- How do you automate infrastructure? eg. Terraform, Cloud Formation, CDK, EKSCTL
+- How do you automate infrastructure? eg. EKS Blueprint, Terraform, Cloud Formation, CDK, EKSCTL
 - How do you execute the CICD?
 - How do you minimise application deployment downtime? Any bluegreen deployment?
 - How do you patch/upgrade the container cluster? EKS: managed and unmanaged nodes
@@ -56,5 +56,5 @@
 - Is tagging implemented?
 - Have you considered data transfer charges?
 - Any reserved instances/savings plan?
-- Is the workload suitable for spot?
-
+- Is the workload suitable for Spot?
+- Is the workload suitable for Graviton?
